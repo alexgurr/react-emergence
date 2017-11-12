@@ -22,15 +22,11 @@ or
 `yarn add react-emergence`
 
 ## Usage
-
     <EmergeContainer>
         <Emerge>
             <div className="element-to-emerge"/>
         </Emerge
     </EmergeContainer
-
-  )
-
 ## Options
 ### Emerge Container
 * `className` - *string* Custom classname for the container. Ignored if *useWindowAsContainer* is true*
