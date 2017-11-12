@@ -1,4 +1,4 @@
-# react-emergence
+# react-emergence &middot; [![](https://img.shields.io/badge/status-is%20developing-green.svg?style=flat)](#plugin)
 
 A React wrapper for detecting element visibility in the browser, using https://xtianmiller.github.io/emergence.js/.
 
