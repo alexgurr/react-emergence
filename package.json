@@ -1,18 +1,14 @@
 {
   "name": "react-emergence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React wrapper for detecting element visibility in the browser",
   "main": "dist/index.js",
   "scripts": {
-    "scripts": {
-      "build": "babel src -d dist",
-      "test": "jest --config .jestrc.js",
-      "storybook": "start-storybook -p 6006",
-      "build-storybook": "build-storybook",
-      "prepublish": "npm run build"
-    },
+    "build": "babel src -d dist",
+    "test": "jest --config .jestrc.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "classnames": "^2.2.5",
