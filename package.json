@@ -1,0 +1,53 @@
+{
+  "name": "react-emergence",
+  "version": "0.1.0",
+  "description": "React wrapper for detecting element visibility in the browser",
+  "main": "dist/index.js",
+  "scripts": {
+    "scripts": {
+      "build": "babel src -d dist",
+      "test": "jest --config .jestrc.js",
+      "storybook": "start-storybook -p 6006",
+      "build-storybook": "build-storybook",
+      "prepublish": "npm run build"
+    },
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "emergence.js": "^1.1.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.1.1",
+    "jest": "^21.2.1",
+    "jest-enzyme": "^4.0.1",
+    "react-dom": "^16.0.0",
+    "@storybook/react": "^3.2.15",
+    "@storybook/addon-actions": "^3.2.15",
+    "@storybook/addon-links": "^3.2.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexgurr/react-emergence.git"
+  },
+  "keywords": [
+    "react",
+    "emergence",
+    "browser",
+    "element",
+    "visibility"
+  ],
+  "author": "Alex Gurr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexgurr/react-emergence/issues"
+  },
+  "homepage": "https://github.com/alexgurr/react-emergence#readme"
+}
