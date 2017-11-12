@@ -29,7 +29,7 @@ or
     </EmergeContainer
 ## Options
 ### Emerge Container
-* `className` - *string* Custom classname for the container. Ignored if *useWindowAsContainer* is true*
+* `className` - *string* Custom classname for the container. Ignored if *useWindowAsContainer* is true
 * `children` - *node* React children to render inside the container (**required**)
 * `useWindowAsContainer` - *boolean* Use the default container (window)
 * `args` - *object* Set of custom args - see https://xtianmiller.github.io/emergence.js/ for more information
