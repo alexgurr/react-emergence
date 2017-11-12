@@ -24,7 +24,7 @@ export default class EmergeContainer extends Component {
 
             this.setState({ containerRef: el });
 
-            Emergence.init({ ...args, container: el });
+            Emergence.init({ ...args, container: el,  callback: (el, state) =>  console.log(el, state) });
         }
     }
 

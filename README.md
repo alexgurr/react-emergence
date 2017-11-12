@@ -2,9 +2,9 @@
 
 A React wrapper for detecting element visibility in the browser, using https://xtianmiller.github.io/emergence.js/.
 
-Explanations for individual arguments can be found on the emergence git page.
+react-emergence is a simple way for React users to pull in and use this.
 
-All credits go to the original author for the Emergence library. This is simply an easy way for React users to use it.
+Explanations for individual arguments can be found on the emergence git page. All credits go to the original author for the Emergence library.
 
 ## Table of Contents
 
@@ -13,6 +13,13 @@ All credits go to the original author for the Emergence library. This is simply 
 - [Options](#options)
 - [ToDo](#todo)
 
+## Installation
+
+`npm install react-emergence`
+
+or
+
+`yarn add react-emergence`
 
 ## Usage
 
@@ -25,10 +32,16 @@ All credits go to the original author for the Emergence library. This is simply 
   )
 
 ## Options
+### Emerge Container
+* `className` - *string* Custom classname for the container. Ignored if *useWindowAsContainer* is true*
+* `children` - *node* React children to render inside the container (**required**)
+* `useWindowAsContainer` - *boolean* Use the default container (window)
+* `args` - *object* Set of custom args - see https://xtianmiller.github.io/emergence.js/ for more information
 
+### Emerge
+* `children` - *node* React component to be handled as as an emerge element (**required**)
 
 ## ToDo:
 
 - Tests
-- NPM release
-- Get custom containers working
+- More storybook examples
